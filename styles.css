@@ -1,0 +1,42 @@
+header{
+    background-color: #9A031E;
+    padding: 10px 0px 10px 0;
+    margin-top: 50px;
+}
+
+body{
+    text-align: center;
+    background-color: #111344;
+    color: #FB8B24;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    margin-top: -35px;
+    background-color: #9A031E;
+    padding: 5px 0 5px 0;
+}
+
+.navbar>a {
+    color: #FB8B24;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.intro > img {
+    height: 200px;
+    padding-left: 25px;
+}
+
+article{
+    min-width: 400px;
+    max-width: 29%;
+    font-size: 22px;
+}
