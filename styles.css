@@ -1,42 +1,116 @@
+/* affects all pages */
 header{
-    background-color: #9A031E;
+    background-color: #028090;
     padding: 10px 0px 10px 0;
     margin-top: 50px;
 }
 
+header > h1 {
+    font-size: 48px;
+}
+
+header > p {
+    font-size: 22px;
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    width: 100%;
+    margin-top: -35px;
+    background-color: #028090;
+    padding: 20px 0 15px 0;
+    margin-top: -65px;
+}
+
+.navbar>a {
+    color: #F0F3BD;
+    font-size: 32px;
+    margin: 0 10px 0 10px;
+   
+}
+.navbar > a:hover{
+    background-color: #05668D;
+} 
+
+
+
+
+
+/* index page */
 body{
     text-align: center;
-    background-color: #111344;
-    color: #FB8B24;
+    background-color: #05668D;
+    color: #F0F3BD;
     margin-right: 0px;
     margin-left: 0px;
 }
 
-.navbar {
-    position: fixed;
-    width: 100%;
-    margin-top: -35px;
-    background-color: #9A031E;
-    padding: 5px 0 5px 0;
-}
-
-.navbar>a {
-    color: #FB8B24;
-}
 
 .intro {
     display: flex;
     justify-content: center;
     padding: 25px;
+    gap: 10vw;
 }
 
 .intro > img {
-    height: 200px;
+    height: 400px;
     padding-left: 25px;
+    border-radius: 50%;
+    
 }
 
 article{
     min-width: 400px;
     max-width: 29%;
-    font-size: 22px;
+    font-size: 32px;
+}
+
+/* about page */
+
+/* establish grid */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-left: 27vw;
+    padding-right: 27vw;
+    min-width: 200px;
+    max-width: 1000px;
+}
+/* change font sizes */
+.container > section > h2 {
+    font-size: 40px;
+}
+
+.container>section>p {
+    font-size: 24px;
+}
+
+/* portfolio page */
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills > h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul > li {
+    list-style: none;
+    font-size: 24px;
+}
+
+.projects > p {
+    font-size: 24px;
 }
