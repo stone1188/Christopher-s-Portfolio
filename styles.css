@@ -1,6 +1,6 @@
 /* affects all pages */
 header{
-    background-color: #00A896;
+    background-color: #028090;
     padding: 10px 0px 10px 0;
     margin-top: 50px;
 }
@@ -20,7 +20,7 @@ header > p {
     position: fixed;
     width: 100%;
     margin-top: -35px;
-    background-color: #00A896;
+    background-color: #028090;
     padding: 20px 0 15px 0;
     margin-top: -65px;
 }
