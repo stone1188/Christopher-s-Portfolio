@@ -1,5 +1,6 @@
+/* affects all pages */
 header{
-    background-color: #9A031E;
+    background-color: #00A896;
     padding: 10px 0px 10px 0;
     margin-top: 50px;
 }
@@ -9,40 +10,39 @@ header > h1 {
 }
 
 header > p {
-    font-size: 20px;
+    font-size: 22px;
 }
 
+/* navbar */
 .navbar {
+    display: flex;
+    justify-content: flex-start;
     position: fixed;
     width: 100%;
     margin-top: -35px;
-    background-color: #9A031E;
+    background-color: #00A896;
     padding: 20px 0 15px 0;
     margin-top: -65px;
 }
 
-
 .navbar>a {
-    display: flex;
-    flex-direction: column;
-    float: left;
-    color: #FB8B24;
+    color: #F0F3BD;
     font-size: 32px;
-    border: #FB8B24 solid 3px;
+    border: #F0F3BD solid 3px;
     border-bottom: none;
     border-right: none;
     border-left: none;
     margin: 0 10px 0 10px;
 }
 .navbar > a:hover{
-    background-color: #111344;
+    background-color: #05668D;
 }
 
 /* index page */
 body{
     text-align: center;
-    background-color: #111344;
-    color: #FB8B24;
+    background-color: #05668D;
+    color: #F0F3BD;
     margin-right: 0px;
     margin-left: 0px;
 }
@@ -69,6 +69,8 @@ article{
 }
 
 /* about page */
+
+/* establish grid */
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -78,12 +80,36 @@ article{
     min-width: 200px;
     max-width: 1000px;
 }
-
+/* change font sizes */
 .container > section > h2 {
     font-size: 40px;
 }
 
 .container>section>p {
-    font-size: 20px;
+    font-size: 24px;
 }
 
+/* portfolio page */
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills > h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul > li {
+    list-style: none;
+    font-size: 24px;
+}
+
+.projects > p {
+    font-size: 24px;
+}
