@@ -4,6 +4,41 @@ header{
     margin-top: 50px;
 }
 
+header > h1 {
+    font-size: 48px;
+}
+
+header > p {
+    font-size: 20px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    margin-top: -35px;
+    background-color: #9A031E;
+    padding: 20px 0 15px 0;
+    margin-top: -65px;
+}
+
+
+.navbar>a {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    color: #FB8B24;
+    font-size: 32px;
+    border: #FB8B24 solid 3px;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    margin: 0 10px 0 10px;
+}
+.navbar > a:hover{
+    background-color: #111344;
+}
+
+/* index page */
 body{
     text-align: center;
     background-color: #111344;
@@ -12,31 +47,43 @@ body{
     margin-left: 0px;
 }
 
-.navbar {
-    position: fixed;
-    width: 100%;
-    margin-top: -35px;
-    background-color: #9A031E;
-    padding: 5px 0 5px 0;
-}
-
-.navbar>a {
-    color: #FB8B24;
-}
 
 .intro {
     display: flex;
     justify-content: center;
     padding: 25px;
+    gap: 10vw;
 }
 
 .intro > img {
-    height: 200px;
+    height: 400px;
     padding-left: 25px;
+    border-radius: 50%;
+    
 }
 
 article{
     min-width: 400px;
     max-width: 29%;
-    font-size: 22px;
+    font-size: 32px;
 }
+
+/* about page */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-left: 27vw;
+    padding-right: 27vw;
+    min-width: 200px;
+    max-width: 1000px;
+}
+
+.container > section > h2 {
+    font-size: 40px;
+}
+
+.container>section>p {
+    font-size: 20px;
+}
+
