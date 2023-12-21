@@ -28,15 +28,16 @@ header > p {
 .navbar>a {
     color: #F0F3BD;
     font-size: 32px;
-    border: #F0F3BD solid 3px;
-    border-bottom: none;
-    border-right: none;
-    border-left: none;
     margin: 0 10px 0 10px;
+   
 }
 .navbar > a:hover{
     background-color: #05668D;
-}
+} 
+
+
+
+
 
 /* index page */
 body{
