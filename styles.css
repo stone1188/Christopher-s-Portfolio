@@ -141,22 +141,11 @@ header > p {
     
    
 }
-.navbar> .aindex {
-    --clr: #02C39A;
-}
 
-.navbar> .aabout {
-    --clr: #02C39A;
-}
-
-.navbar> .aportfolio {
-    --clr: #02C39A;
-}
 
 .navbar> a:hover{
     background: var(--clr) ;
     letter-spacing: 0.05em;
-    box-shadow: 0 0 40px var(--clr);
 } 
 
 .navbar> a::before{
@@ -238,4 +227,6 @@ ul > li {
 .projects > p {
     font-size: 24px;
 }
+
+/* contact page */
 
