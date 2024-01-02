@@ -30,18 +30,23 @@
         <header>
         <h1>Contact me</h1>
         </header>
-        <section>
+        <section class="formcontainer">
           <form class="form" action="thankyou.html">
-               <label for="name">Name: </label>
-               <input type="text" id="name" name="name"/>
-
-               <label for="email">Email: </label>
-               <input type="text" id="email" name="email" />
-
+               <div >
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name"/>
+               </div>
+               <div >
+                    <label for="email">Email: </label>
+                    <input type="text" id="email" name="email" />
+               </div>
                <label for="message" >Message: </label>
-               <textarea type="textarea" id="message" name="message" rows="6" cols="50"></textarea></textarea>
-
-               <input type="submit" id="submit" value="Submit" />
+               <div id="divmessage">               
+                    <textarea type="textarea" id="message" name="message" rows="6" cols="50"></textarea></textarea>
+               </div>
+               <div >
+                    <input type="submit" id="submit" value="Submit" />
+               </div>
           </form>
           </section>
      </body>

@@ -9,9 +9,9 @@ body {
 .wrapper{
     position:fixed;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     min-height: 50vh;
-    overflow: hidden;
+    /* overflow: hidden; */
     background: linear-gradient(90deg,
                 rgb(3, 73, 90) 0%,
                 rgba(9, 9, 121, 1)50%,
@@ -229,4 +229,12 @@ ul > li {
 }
 
 /* contact page */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
